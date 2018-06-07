@@ -2,9 +2,12 @@
 
 This tool was created to facilitate the security assessment of IAM resources in AWS environments. It provides a filter languague to look for overprivileged roles, trust relationships and to calculate effective IAM policies.
 
+Futher information https://medium.com/edge-security/abusing-aws-cross-account-relationships-3b36a111b494
+
 This is WIP: 
 * It is still under development and it has the minimum functionality. 
 * AWS policy syntax is very flexible and therefore it is difficult to support all the "NotAction", "Action", "Deny", "Allow",  different services, resources, conditions, actions and wildcards.
+* Managed policies are not supported
 
 # Language
 
