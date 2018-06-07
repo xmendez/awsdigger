@@ -25,6 +25,14 @@ The following clauses are allowed:
 * Condition
 * Effect
 
+Operators:
+
+* =
+* !=
+* =~
+* !~
+* ~
+
 # Examples:
 
 * Find trust relationships
