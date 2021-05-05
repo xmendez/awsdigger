@@ -1,5 +1,8 @@
+# session.py
+
 from .filter import Filter
 
+import os
 import boto3
 import sys
 import getopt
