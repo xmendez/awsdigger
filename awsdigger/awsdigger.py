@@ -1,5 +1,9 @@
+# awsdigger.py
+
 from .session import Session
 
+import os
+import sys
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
